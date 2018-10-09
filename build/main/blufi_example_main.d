@@ -141,7 +141,18 @@ blufi_example_main.o: /home/zhangdidi/esp/blufi/main/blufi_example_main.c \
  /home/zhangdidi/esp/esp-idf/components/bt/bluedroid/api/include/api/esp_bt_device.h \
  /home/zhangdidi/esp/blufi/main/blufi_example.h \
  /home/zhangdidi/esp/esp-idf/components/espmqtt/include/mqtt_client.h \
- /home/zhangdidi/esp/esp-idf/components/espmqtt/include/mqtt_config.h
+ /home/zhangdidi/esp/esp-idf/components/espmqtt/include/mqtt_config.h \
+ /home/zhangdidi/esp/esp-idf/components/driver/include/driver/uart.h \
+ /home/zhangdidi/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
+ /home/zhangdidi/esp/esp-idf/components/soc/esp32/include/soc/uart_struct.h \
+ /home/zhangdidi/esp/esp-idf/components/driver/include/driver/periph_ctrl.h \
+ /home/zhangdidi/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
+ /home/zhangdidi/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
+ /home/zhangdidi/esp/esp-idf/components/esp32/include/esp_dport_access.h \
+ /home/zhangdidi/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
+ /home/zhangdidi/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
+ /home/zhangdidi/esp/esp-idf/components/freertos/include/freertos/ringbuf.h \
+ /home/zhangdidi/esp/esp-idf/components/soc/esp32/include/soc/uart_channel.h
 
 /home/zhangdidi/esp/esp-idf/components/newlib/include/stdio.h:
 
@@ -428,4 +439,26 @@ blufi_example_main.o: /home/zhangdidi/esp/blufi/main/blufi_example_main.c \
 /home/zhangdidi/esp/esp-idf/components/espmqtt/include/mqtt_client.h:
 
 /home/zhangdidi/esp/esp-idf/components/espmqtt/include/mqtt_config.h:
+
+/home/zhangdidi/esp/esp-idf/components/driver/include/driver/uart.h:
+
+/home/zhangdidi/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h:
+
+/home/zhangdidi/esp/esp-idf/components/soc/esp32/include/soc/uart_struct.h:
+
+/home/zhangdidi/esp/esp-idf/components/driver/include/driver/periph_ctrl.h:
+
+/home/zhangdidi/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h:
+
+/home/zhangdidi/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h:
+
+/home/zhangdidi/esp/esp-idf/components/esp32/include/esp_dport_access.h:
+
+/home/zhangdidi/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h:
+
+/home/zhangdidi/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h:
+
+/home/zhangdidi/esp/esp-idf/components/freertos/include/freertos/ringbuf.h:
+
+/home/zhangdidi/esp/esp-idf/components/soc/esp32/include/soc/uart_channel.h:
 /home/zhangdidi/esp/blufi/main/./blufi_example_main.c:
