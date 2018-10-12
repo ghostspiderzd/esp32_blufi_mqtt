@@ -55,7 +55,7 @@ static const char *TAG = "MQTT_EXAMPLE";
 
 static void example_event_callback(esp_blufi_cb_event_t event, esp_blufi_cb_param_t *param);
 
-#define BLUFI_DEVICE_NAME            "kim0100005"
+#define BLUFI_DEVICE_NAME            "kim0100002"  //6
 static uint8_t example_service_uuid128[32] = {
     /* LSB <--------------------------------------------------------------------------------> MSB */
     //first uuid, 16bit, [12],[13] is the value
@@ -122,6 +122,9 @@ unsigned char BLE_ConnectFlag = 0;
 
 #define WIFI_KEY_SSID "wifi_ssid"
 #define WIFI_KEY_PASSWORD "wifi_password"
+
+#define MQTT_PUBLISH_TOPIC "/dev2ser/600/kim0100002"
+#define MQTT_SUBSCRIPTION_TOPIC "/ser2dev/600/kim0100002"
 
 //string -->> hex
 char HexStr2Integer(char *in,char *out ,int len)
@@ -268,7 +271,7 @@ static esp_err_t mqtt_event_handler(esp_mqtt_event_handle_t event)
     switch (event->event_id) {
         case MQTT_EVENT_CONNECTED:
             ESP_LOGI(TAG, "MQTT_EVENT_CONNECTED");
-            msg_id = esp_mqtt_client_subscribe(client, "/ser2dev/600/kim0100005", 0);
+            msg_id = esp_mqtt_client_subscribe(client, MQTT_SUBSCRIPTION_TOPIC, 0);
             ESP_LOGI(TAG, "sent subscribe successful, msg_id=%d", msg_id);
 	    Agreement_to_assemble(0x23,0x03,0);
 	    uart_write_bytes(EX_UART_NUM, (const char*)UniversalBuffer,4);  //Connect MQTT
@@ -284,7 +287,7 @@ static esp_err_t mqtt_event_handler(esp_mqtt_event_handle_t event)
 
         case MQTT_EVENT_SUBSCRIBED:
             ESP_LOGI(TAG, "MQTT_EVENT_SUBSCRIBED, msg_id=%d", event->msg_id);
-            msg_id = esp_mqtt_client_publish(client, "/dev2ser/600/kim0100005", "FE2301FF", 0, 0, 0);
+            msg_id = esp_mqtt_client_publish(client, MQTT_PUBLISH_TOPIC, "FE2301FF", 0, 0, 0);
             ESP_LOGI(TAG, "sent publish successful, msg_id=%d", msg_id);
             break;
         case MQTT_EVENT_UNSUBSCRIBED:
@@ -450,6 +453,7 @@ static esp_blufi_callbacks_t example_callbacks = {
 
 static void example_event_callback(esp_blufi_cb_event_t event, esp_blufi_cb_param_t *param)
 {
+	char StrToHex[50] = {0};
     /* actually, should post to blufi_task handle the procedure,
      * now, as a example, we do it more simply */
     switch (event) {
@@ -615,6 +619,9 @@ static void example_event_callback(esp_blufi_cb_event_t event, esp_blufi_cb_para
     case ESP_BLUFI_EVENT_RECV_CUSTOM_DATA:
         BLUFI_INFO("Recv Custom Data %d\n", param->custom_data.data_len);
         esp_log_buffer_hex("Custom Data", param->custom_data.data, param->custom_data.data_len);
+	HexStr2Integer((char *)param->custom_data.data,StrToHex,param->custom_data.data_len); 
+	    uart_write_bytes(EX_UART_NUM, (const char*)StrToHex,param->custom_data.data_len/2);
+	memset(StrToHex,'\0',50);
         break;
 	case ESP_BLUFI_EVENT_RECV_USERNAME:
         /* Not handle currently */
@@ -673,7 +680,11 @@ static void uart_event_task(void *pvParameters)
 		    IntToHexChar(HexToStr,dtmp,event.size);  //Convert the array to a string
 		ESP_LOGI(TAG, "ConnectNetWorkFlag:%d",ConnectNetWorkFlag);
 		if(ConnectNetWorkFlag != 0){		    
-			esp_mqtt_client_publish(gclient, "/dev2ser/600/kim0100005", (const char *)HexToStr, 0, 0, 0);}
+			esp_mqtt_client_publish(gclient, MQTT_PUBLISH_TOPIC, (const char *)HexToStr, 0, 0, 0);
+}
+		if(BLE_ConnectFlag != 0){
+			esp_blufi_send_custom_data(HexToStr,event.size*2);
+}
 		    memset(HexToStr,'\0',128);
                     break;
                  //Event of HW FIFO overflow detected
@@ -761,8 +772,8 @@ void app_main()
     uart_param_config(EX_UART_NUM, &uart_config);
 
         //Set UART log level
-    //esp_log_level_set("*", ESP_LOG_NONE);
-	esp_log_level_set("*", ESP_LOG_INFO);
+    esp_log_level_set("*", ESP_LOG_NONE);
+	//esp_log_level_set("*", ESP_LOG_INFO);
     //Set UART pins (using UART0 default pins ie no changes.)
     uart_set_pin(EX_UART_NUM, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE);
     //Install UART driver, and get the queue.
