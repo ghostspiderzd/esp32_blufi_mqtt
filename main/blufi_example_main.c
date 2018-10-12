@@ -39,6 +39,9 @@
 #include "freertos/queue.h"
 #include "driver/uart.h"
 
+#include "nvs_flash.h"
+#include "nvs.h"
+
 //uart
 #define EX_UART_NUM UART_NUM_0
 #define PATTERN_CHR_NUM    (3)         /*!< Set the number of consecutive and identical characters received by receiver which defines a UART pattern*/
@@ -52,7 +55,7 @@ static const char *TAG = "MQTT_EXAMPLE";
 
 static void example_event_callback(esp_blufi_cb_event_t event, esp_blufi_cb_param_t *param);
 
-#define BLUFI_DEVICE_NAME            "BLUFI_DEVICE_development"
+#define BLUFI_DEVICE_NAME            "kim0100005"
 static uint8_t example_service_uuid128[32] = {
     /* LSB <--------------------------------------------------------------------------------> MSB */
     //first uuid, 16bit, [12],[13] is the value
@@ -113,6 +116,12 @@ static uint16_t conn_id;
 esp_mqtt_client_handle_t gclient;
 unsigned char ConnectNetWorkFlag = 0;
 unsigned char UniversalBuffer[20] = {0}; //UART  sends the data
+unsigned char nvs_sta_ssid[32];
+unsigned char  nvs_sta_password[32];
+unsigned char BLE_ConnectFlag = 0;
+
+#define WIFI_KEY_SSID "wifi_ssid"
+#define WIFI_KEY_PASSWORD "wifi_password"
 
 //string -->> hex
 char HexStr2Integer(char *in,char *out ,int len)
@@ -168,21 +177,98 @@ void Agreement_to_assemble(unsigned char Class ,unsigned char parameter,unsigned
 	UniversalBuffer[3] = 0xff;	
 }
 
+void Write_NVS_Str(char *key,char *value)
+{
+    esp_err_t err;
+ // Open
+    printf("\n");
+    printf("Opening Non-Volatile Storage (NVS) handle... ");
+    nvs_handle my_handle;
+    err = nvs_open("storage", NVS_READWRITE, &my_handle);
+    if (err != ESP_OK) {
+        printf("Error (%s) opening NVS handle!\n", esp_err_to_name(err));
+    } else {
+        printf("Done\n");
+
+        // Write
+        printf("Updating restart counter in NVS ... ");
+       // restart_counter++;
+       // err = nvs_set_i32(my_handle, "restart_counter", restart_counter);
+        err = nvs_set_str(my_handle, key, value);
+        printf((err != ESP_OK) ? "Failed!\n" : "Done\n");
+
+        // Commit written value.
+        // After setting any values, nvs_commit() must be called to ensure changes are written
+        // to flash storage. Implementations may write to storage at other times,
+        // but this is not guaranteed.
+        printf("Committing updates in NVS ... ");
+        err = nvs_commit(my_handle);
+        printf((err != ESP_OK) ? "Failed!\n" : "Done\n");
+
+        // Close
+        nvs_close(my_handle);
+	}
+}
+
+unsigned char Read_NVS_Str(char *key,char *outstr)
+{
+	size_t len;
+	unsigned char returnflag = 0;
+	esp_err_t err;
+	// Open
+    printf("\n");
+    printf("Opening Non-Volatile Storage (NVS) handle... ");
+    nvs_handle my_handle;
+    err = nvs_open("storage", NVS_READWRITE, &my_handle);
+    if (err != ESP_OK) 
+    {
+        printf("Error (%s) opening NVS handle!\n", esp_err_to_name(err));
+    } 
+    else {
+        printf("Done\n");
+
+        // Read
+        printf("Reading restart counter from NVS ... ");
+        //int32_t restart_counter = 0; // value will default to 0, if not set yet in NVS
+        //err = nvs_get_i32(my_handle, "restart_counter", &restart_counter);
+	err = nvs_get_str(my_handle, key, NULL,&len);
+        switch (err) {
+            case ESP_OK:
+                printf("Done\n");
+                //printf("Restart counter = %d\n", restart_counter);
+		nvs_get_str(my_handle, key,outstr,&len); //read real value
+		printf("%s\n",outstr);
+		returnflag = 1;
+                break;
+            case ESP_ERR_NVS_NOT_FOUND:
+                printf("The value is not initialized yet!\n");
+		returnflag = 2;
+                break;
+            default :
+                printf("Error (%s) reading!\n", esp_err_to_name(err));
+		returnflag = 3;
+        }
+       }
+	 // Close
+        nvs_close(my_handle);
+	return returnflag;
+}
+
 
 static esp_err_t mqtt_event_handler(esp_mqtt_event_handle_t event)
 {
     esp_mqtt_client_handle_t client = event->client;
     int msg_id;
     char StrToHex[50] = {0};
-    char *pTempData;
-    char Extract2byte[2] = {0};
+    //char *pTempData;
+    //char Extract2byte[2] = {0};
 
     gclient = client;
     // your_context_t *context = event->context;
     switch (event->event_id) {
         case MQTT_EVENT_CONNECTED:
             ESP_LOGI(TAG, "MQTT_EVENT_CONNECTED");
-            msg_id = esp_mqtt_client_subscribe(client, "/ser2dev/600/test0001", 0);
+            msg_id = esp_mqtt_client_subscribe(client, "/ser2dev/600/kim0100005", 0);
             ESP_LOGI(TAG, "sent subscribe successful, msg_id=%d", msg_id);
 	    Agreement_to_assemble(0x23,0x03,0);
 	    uart_write_bytes(EX_UART_NUM, (const char*)UniversalBuffer,4);  //Connect MQTT
@@ -198,7 +284,7 @@ static esp_err_t mqtt_event_handler(esp_mqtt_event_handle_t event)
 
         case MQTT_EVENT_SUBSCRIBED:
             ESP_LOGI(TAG, "MQTT_EVENT_SUBSCRIBED, msg_id=%d", event->msg_id);
-            msg_id = esp_mqtt_client_publish(client, "/dev2ser/600/test0001", "FE2301FF", 0, 0, 0);
+            msg_id = esp_mqtt_client_publish(client, "/dev2ser/600/kim0100005", "FE2301FF", 0, 0, 0);
             ESP_LOGI(TAG, "sent publish successful, msg_id=%d", msg_id);
             break;
         case MQTT_EVENT_UNSUBSCRIBED:
@@ -214,7 +300,7 @@ static esp_err_t mqtt_event_handler(esp_mqtt_event_handle_t event)
 	    //pTempData = event->data;
 	    HexStr2Integer(event->data,StrToHex,event->data_len); 
 	    uart_write_bytes(EX_UART_NUM, (const char*)StrToHex,event->data_len/2);
-	    //memset(StrToHex,'\0',50);
+	    memset(StrToHex,'\0',50);
             break;
         case MQTT_EVENT_ERROR:
             ESP_LOGI(TAG, "MQTT_EVENT_ERROR");
@@ -227,7 +313,7 @@ static void mqtt_app_start(void)
 {
     const esp_mqtt_client_config_t mqtt_cfg = {
         .uri = "mqtt://121.40.76.221:1883",
-        .client_id = "OVEN_test0001",
+        //.client_id = "kim0100001",
 	.username = "test",
 	.password = "123456",
 	.event_handle = mqtt_event_handler,
@@ -235,12 +321,14 @@ static void mqtt_app_start(void)
     };
 
     esp_mqtt_client_handle_t client = esp_mqtt_client_init(&mqtt_cfg);
+    //gclient = client;
     esp_mqtt_client_start(client);
     ConnectNetWorkFlag = 1;
+    ESP_LOGI(TAG, "MQTT_START");
 }
 
 
-//BLUFI
+//WIFI
 static esp_err_t example_net_event_handler(void *ctx, system_event_t *event)
 {
     wifi_mode_t mode;
@@ -260,9 +348,17 @@ static esp_err_t example_net_event_handler(void *ctx, system_event_t *event)
         info.sta_bssid_set = true;
         info.sta_ssid = gl_sta_ssid;
         info.sta_ssid_len = gl_sta_ssid_len;
-        esp_blufi_send_wifi_conn_report(mode, ESP_BLUFI_STA_CONN_SUCCESS, 0, &info);
+	if(BLE_ConnectFlag != 0)
+	{
+		esp_blufi_send_wifi_conn_report(mode, ESP_BLUFI_STA_CONN_SUCCESS, 0, &info);
+	}
 	Agreement_to_assemble(0x23,0x01,0);  //connect WIFI
         uart_write_bytes(EX_UART_NUM, (const char*)UniversalBuffer,4);
+	
+	//save WIFI password and SSID
+	Write_NVS_Str(WIFI_KEY_SSID,(char *)sta_config.sta.ssid);
+	Write_NVS_Str(WIFI_KEY_PASSWORD,(char *)sta_config.sta.password);
+
 	mqtt_app_start(); //insert mqtt
         break;
     }
@@ -361,6 +457,19 @@ static void example_event_callback(esp_blufi_cb_event_t event, esp_blufi_cb_para
         BLUFI_INFO("BLUFI init finish\n");
         esp_ble_gap_set_device_name(BLUFI_DEVICE_NAME);
         esp_ble_gap_config_adv_data(&example_adv_data);
+	//Check whether WIFI has been available before
+
+	if(Read_NVS_Str(WIFI_KEY_SSID,(char *)nvs_sta_ssid) == 1)
+	{
+		if(Read_NVS_Str(WIFI_KEY_PASSWORD,(char *)nvs_sta_password) == 1)
+		{
+			memcpy(sta_config.sta.ssid,(char *)nvs_sta_ssid,strlen((const char *)nvs_sta_ssid));			
+			memcpy(sta_config.sta.password,(char *)nvs_sta_password,strlen((const char *)nvs_sta_password));
+			esp_wifi_set_config(WIFI_IF_STA, &sta_config);
+			esp_wifi_connect();
+		}
+	}   
+
 	Agreement_to_assemble(0x24,0x00,0);  
 	uart_write_bytes(EX_UART_NUM, (const char*)UniversalBuffer,4);
         break;
@@ -375,6 +484,7 @@ static void example_event_callback(esp_blufi_cb_event_t event, esp_blufi_cb_para
         conn_id = param->connect.conn_id;
         esp_ble_gap_stop_advertising();
         blufi_security_init();
+	BLE_ConnectFlag = 1;
         break;
     case ESP_BLUFI_EVENT_BLE_DISCONNECT:
         BLUFI_INFO("BLUFI ble disconnect\n");
@@ -382,6 +492,7 @@ static void example_event_callback(esp_blufi_cb_event_t event, esp_blufi_cb_para
 	uart_write_bytes(EX_UART_NUM, (const char*)UniversalBuffer,4); //disconnect ble
         blufi_security_deinit();
         esp_ble_gap_start_advertising(&example_adv_params);
+	BLE_ConnectFlag = 0;
         break;
     case ESP_BLUFI_EVENT_SET_WIFI_OPMODE:
         BLUFI_INFO("BLUFI Set WIFI opmode %d\n", param->wifi_mode.op_mode);
@@ -560,7 +671,9 @@ static void uart_event_task(void *pvParameters)
                     uart_read_bytes(EX_UART_NUM, dtmp, event.size, portMAX_DELAY);
                     ESP_LOGI(TAG, "[DATA EVT]:");
 		    IntToHexChar(HexToStr,dtmp,event.size);  //Convert the array to a string
-		    esp_mqtt_client_publish(gclient, "/dev2ser/600/test0001", (const char *)HexToStr, 0, 0, 0);
+		ESP_LOGI(TAG, "ConnectNetWorkFlag:%d",ConnectNetWorkFlag);
+		if(ConnectNetWorkFlag != 0){		    
+			esp_mqtt_client_publish(gclient, "/dev2ser/600/kim0100005", (const char *)HexToStr, 0, 0, 0);}
 		    memset(HexToStr,'\0',128);
                     break;
                  //Event of HW FIFO overflow detected
@@ -627,7 +740,6 @@ static void uart_event_task(void *pvParameters)
 void app_main()
 {
     esp_err_t ret;
-
     // Initialize NVS
     ret = nvs_flash_init();
     if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND) {
@@ -649,8 +761,8 @@ void app_main()
     uart_param_config(EX_UART_NUM, &uart_config);
 
         //Set UART log level
-    esp_log_level_set("*", ESP_LOG_NONE);
-
+    //esp_log_level_set("*", ESP_LOG_NONE);
+	esp_log_level_set("*", ESP_LOG_INFO);
     //Set UART pins (using UART0 default pins ie no changes.)
     uart_set_pin(EX_UART_NUM, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE);
     //Install UART driver, and get the queue.
@@ -663,6 +775,16 @@ void app_main()
 
     //Create a task to handler UART event from ISR
     xTaskCreate(uart_event_task, "uart_event_task", 2048, NULL, 12, NULL);
+
+    // Initialize NVS
+    esp_err_t err = nvs_flash_init();
+    if (err == ESP_ERR_NVS_NO_FREE_PAGES || err == ESP_ERR_NVS_NEW_VERSION_FOUND) {
+        // NVS partition was truncated and needs to be erased
+        // Retry nvs_flash_init
+        ESP_ERROR_CHECK(nvs_flash_erase());
+        err = nvs_flash_init();
+    }
+    ESP_ERROR_CHECK( err );
 
 
     initialise_wifi();
@@ -710,5 +832,7 @@ void app_main()
     }
 
     esp_blufi_profile_init();
+
+
 
 }

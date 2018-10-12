@@ -55,8 +55,8 @@ Discarded input sections
  .text          0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .data          0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .bss           0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .xt.lit        0x00000000       0x50 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .xt.prop       0x00000000      0x4bc /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .xt.lit        0x00000000       0x58 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .xt.prop       0x00000000      0x5e8 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .text          0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
  .data          0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
  .bss           0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
@@ -65,8 +65,8 @@ Discarded input sections
  .text          0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  .data          0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  .bss           0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .xt.lit        0x00000000       0x40 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .xt.prop       0x00000000      0x444 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .xt.lit        0x00000000       0x48 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .xt.prop       0x00000000      0x57c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  .literal.esp_image_verify
                 0x00000000        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .literal.esp_image_verify_bootloader
@@ -80,12 +80,12 @@ Discarded input sections
  .text.esp_image_verify_bootloader
                 0x00000000       0x30 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .xt.lit        0x00000000       0x68 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .xt.prop       0x00000000      0x66c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .xt.prop       0x00000000      0x750 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .text          0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  .data          0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  .bss           0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  .xt.lit        0x00000000        0x8 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .xt.prop       0x00000000       0xf0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .xt.prop       0x00000000      0x144 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  .literal.write_status_8b_wrsr2
                 0x00000000        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .literal.read_status_8b_rdsr2
@@ -103,9 +103,9 @@ Discarded input sections
  .literal.read_status_8b_xmc25qu64a
                 0x00000000       0x14 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .literal.enable_qio_mode
-                0x00000000       0x20 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x00000000       0x30 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .literal.bootloader_enable_qio_mode
-                0x00000000       0x10 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x00000000       0x2c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .text          0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .data          0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .bss           0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
@@ -125,16 +125,16 @@ Discarded input sections
                 0x00000000       0x42 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .text.read_status_8b_xmc25qu64a
                 0x00000000       0x3a /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .text.enable_qio_mode
-                0x00000000       0x70 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .text.bootloader_enable_qio_mode
-                0x00000000       0xae /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .rodata.str1.4
-                0x00000000       0x26 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x00000000       0xe6 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .text.enable_qio_mode
+                0x00000000       0x84 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .text.bootloader_enable_qio_mode
+                0x00000000       0xf4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .rodata.chip_data
                 0x00000000       0x6c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .xt.lit        0x00000000       0x60 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .xt.prop       0x00000000      0x2e8 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .xt.prop       0x00000000      0x300 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .text          0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
  .data          0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
  .bss           0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
@@ -145,26 +145,26 @@ Discarded input sections
  .literal.bootloader_common_label_search
                 0x00000000       0x18 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .literal.bootloader_common_erase_part_type_data
-                0x00000000       0x20 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x00000000       0x60 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .literal.bootloader_common_get_sha256_of_partition
-                0x00000000       0x24 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x00000000       0x34 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .text          0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .data          0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .bss           0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .text.bootloader_common_check_long_hold_gpio
                 0x00000000       0xac /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .rodata.str1.4
-                0x00000000        0x3 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x00000000      0x112 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .text.bootloader_common_label_search
                 0x00000000       0xac /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .text.bootloader_common_erase_part_type_data
-                0x00000000       0xa0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x00000000      0x126 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .text.bootloader_common_get_sha256_of_partition
-                0x00000000       0xac /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x00000000       0xc7 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .xt.lit        0x00000000       0x30 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .xt.prop       0x00000000      0x33c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .xt.prop       0x00000000      0x36c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .literal.bootloader_flash_write
-                0x00000000       0x18 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x00000000       0x40 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .literal.bootloader_flash_erase_sector
                 0x00000000        0x8 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .literal.bootloader_flash_erase_range
@@ -173,7 +173,7 @@ Discarded input sections
  .data          0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .bss           0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .text.bootloader_flash_write
-                0x00000000       0x72 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x00000000       0xb2 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .text.bootloader_flash_erase_sector
                 0x00000000       0x16 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .text.bootloader_flash_erase_range
@@ -185,8 +185,6 @@ Discarded input sections
  .bss           0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .xt.lit        0x00000000       0x18 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .xt.prop       0x00000000      0x24c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .literal.esp_log_early_timestamp
-                0x00000000        0x8 /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
  .literal.esp_log_buffer_hex_internal
                 0x00000000       0x50 /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
  .literal.esp_log_buffer_char_internal
@@ -196,8 +194,6 @@ Discarded input sections
  .text          0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
  .data          0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
  .bss           0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
- .text.esp_log_early_timestamp
-                0x00000000       0x1f /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
  .rodata.str1.4
                 0x00000000       0xa6 /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
  .text.esp_log_buffer_hex_internal
@@ -375,7 +371,7 @@ Discarded input sections
  .data          0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
  .bss           0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
  .xt.lit        0x00000000       0x10 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
- .xt.prop       0x00000000      0x198 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ .xt.prop       0x00000000      0x1bc /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
  .literal.rtc_init
                 0x00000000       0xb8 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
  .text          0x00000000        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
@@ -458,7 +454,7 @@ LOAD /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/
 END GROUP
 
 .iram_loader.text
-                0x40078000     0x1dfc
+                0x40078000     0x24b0
                 0x40078000                . = ALIGN (0x10)
                 0x40078000                _stext = .
                 0x40078000                _loader_text_start = ABSOLUTE (.)
@@ -470,347 +466,372 @@ END GROUP
  .iram1.literal
                 0x40078040       0x1c /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(cpu_util.o)
                                  0x30 (size before relaxing)
- .literal       0x4007805c        0x8 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .literal.esp_log_early_timestamp
+                0x4007805c        0x8 /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
+ .literal       0x40078064        0x8 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .literal.bootloader_common_ota_select_crc
-                0x40078064        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x4007806c        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .literal.bootloader_common_ota_select_valid
-                0x40078068        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x40078070        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
                                   0x4 (size before relaxing)
  .literal.spi_to_esp_err
-                0x40078068        0x8 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x40078070        0x8 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .literal.bootloader_flash_read_allow_decrypt
-                0x40078070       0x1c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                                 0x20 (size before relaxing)
+                0x40078078       0x28 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                 0x30 (size before relaxing)
  .literal.bootloader_flash_read_no_decrypt
-                0x4007808c        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x400780a0        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                  0x14 (size before relaxing)
  .literal.bootloader_mmap
-                0x4007808c       0x10 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                                 0x28 (size before relaxing)
+                0x400780a0       0x18 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                 0x50 (size before relaxing)
  .literal.bootloader_munmap
-                0x4007809c        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x400780b8        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                  0x14 (size before relaxing)
  .literal.bootloader_flash_read
-                0x400780a0        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                                  0x8 (size before relaxing)
+                0x400780bc        0xc /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                 0x30 (size before relaxing)
  .literal.bootloader_fill_random
-                0x400780a0       0x14 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x400780c8       0x14 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
                                  0x18 (size before relaxing)
  .literal.bootloader_random_enable
-                0x400780b4       0x78 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x400780dc       0x78 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
  .literal.bootloader_random_disable
-                0x4007812c       0x1c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x40078154       0x1c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
                                  0x4c (size before relaxing)
+ .literal.log_invalid_app_partition
+                0x40078170       0x14 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                 0x2c (size before relaxing)
  .literal.try_load_partition
-                0x40078148        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                  0x4 (size before relaxing)
+                0x40078184        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                 0x14 (size before relaxing)
  .literal.set_cache_and_start_app
-                0x40078148        0xc /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x40078188        0xc /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                  0x30 (size before relaxing)
  .literal.unpack_load_app
-                0x40078154       0x10 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                 0x14 (size before relaxing)
+                0x40078194       0x1c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                 0x34 (size before relaxing)
  .literal.load_image
-                0x40078164        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                  0x8 (size before relaxing)
+                0x400781b0        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                 0x18 (size before relaxing)
  .literal.bootloader_utility_load_partition_table
-                0x40078164        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                 0x14 (size before relaxing)
+                0x400781b4       0x40 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                 0x84 (size before relaxing)
  .literal.bootloader_utility_get_selected_boot_partition
-                0x40078168        0x8 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                 0x24 (size before relaxing)
+                0x400781f4       0x1c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                 0x70 (size before relaxing)
  .literal.bootloader_reset
-                0x40078170        0x8 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x40078210        0x8 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                  0x14 (size before relaxing)
  .literal.bootloader_utility_load_boot_image
-                0x40078178        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                 0x34 (size before relaxing)
+                0x40078218       0x10 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                 0x64 (size before relaxing)
  .literal.bootloader_sha256_start
-                0x4007817c        0x8 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x40078228        0x8 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .literal.bootloader_sha256_data
-                0x40078184       0x20 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x40078230       0x20 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                  0x30 (size before relaxing)
  .literal.bootloader_sha256_finish
-                0x400781a4       0x18 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x40078250       0x18 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                  0x4c (size before relaxing)
- .literal.verify_image_header
-                0x400781bc        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .literal.should_map
-                0x400781c0        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x40078268        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                  0x10 (size before relaxing)
+ .literal.verify_image_header
+                0x40078268       0x14 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                 0x2c (size before relaxing)
  .literal.verify_segment_header
-                0x400781c0        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                  0xc (size before relaxing)
+                0x4007827c        0xc /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                 0x28 (size before relaxing)
  .literal.verify_checksum
-                0x400781c4        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                  0xc (size before relaxing)
+                0x40078288        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                 0x1c (size before relaxing)
  .literal.process_segment_data
-                0x400781c4        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                 0x14 (size before relaxing)
+                0x4007828c        0x8 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                 0x24 (size before relaxing)
  .literal.debug_log_hash
-                0x400781c8        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x40078294        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                   0x4 (size before relaxing)
  .literal.verify_simple_hash
-                0x400781c8        0xc /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                 0x2c (size before relaxing)
+                0x40078294       0x10 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                 0x3c (size before relaxing)
  .literal.should_load
-                0x400781d4       0x10 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x400782a4       0x10 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                  0x18 (size before relaxing)
  .literal.process_segment
-                0x400781e4        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                 0x1c (size before relaxing)
+                0x400782b4       0x1c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                 0x60 (size before relaxing)
  .literal.image_load
-                0x400781e4        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                 0x54 (size before relaxing)
+                0x400782d0       0x14 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                 0x88 (size before relaxing)
  .literal.bootloader_load_image
-                0x400781e8        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x400782e4        0x0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                   0x4 (size before relaxing)
  .literal.esp_partition_table_verify
-                0x400781e8       0x18 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
-                                 0x1c (size before relaxing)
+                0x400782e4       0x30 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                                 0x5c (size before relaxing)
  .literal.esp_rom_spiflash_read_status
-                0x40078200        0xc /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x40078314        0xc /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                  0x14 (size before relaxing)
  .literal.esp_rom_spiflash_wait_idle
-                0x4007820c        0x8 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x40078320        0x8 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                   0xc (size before relaxing)
  .literal.esp_rom_spiflash_read_data
-                0x40078214       0x10 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x40078328       0x10 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                  0x18 (size before relaxing)
  .literal.esp_rom_spiflash_read_statushigh
-                0x40078224        0x4 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x40078338        0x4 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                   0xc (size before relaxing)
  .literal.esp_rom_spiflash_write_status
-                0x40078228        0x0 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x4007833c        0x0 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                  0x14 (size before relaxing)
  .literal.esp_rom_spiflash_unlock
-                0x40078228        0xc /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x4007833c        0xc /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                  0x28 (size before relaxing)
  .literal.esp_rom_spiflash_read
-                0x40078234       0x38 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x40078348       0x38 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                  0x5c (size before relaxing)
- .iram1         0x4007826c      0x22b /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- *fill*         0x40078497        0x1 
- .iram1         0x40078498      0x11a /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(cpu_util.o)
-                0x40078498                esp_cpu_stall
-                0x4007852c                esp_cpu_unstall
-                0x40078580                esp_cpu_reset
-                0x400785a4                esp_cpu_in_ocd_debug_mode
- *fill*         0x400785b2        0x0 
+ .iram1         0x40078380      0x22b /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ *fill*         0x400785ab        0x1 
+ .iram1         0x400785ac      0x11a /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(cpu_util.o)
+                0x400785ac                esp_cpu_stall
+                0x40078640                esp_cpu_unstall
+                0x40078694                esp_cpu_reset
+                0x400786b8                esp_cpu_in_ocd_debug_mode
+ *fill*         0x400786c6        0x0 
  *liblog.a:(.literal .text .literal.* .text.*)
+ *fill*         0x400786c6        0x2 
+ .text.esp_log_early_timestamp
+                0x400786c8       0x1f /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
+                0x400786c8                esp_log_timestamp
+                0x400786c8                esp_log_early_timestamp
+ *fill*         0x400786e7        0x0 
  *libgcc.a:(.literal .text .literal.* .text.*)
- *fill*         0x400785b2        0x2 
- .text          0x400785b4       0x26 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
-                0x400785b4                __bswapsi2
- *fill*         0x400785da        0x0 
- *fill*         0x400785da        0x2 
- .text          0x400785dc      0x281 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
-                0x400785dc                __udivdi3
+ *fill*         0x400786e7        0x1 
+ .text          0x400786e8       0x26 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+                0x400786e8                __bswapsi2
+ *fill*         0x4007870e        0x0 
+ *fill*         0x4007870e        0x2 
+ .text          0x40078710      0x281 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+                0x40078710                __udivdi3
  *libbootloader_support.a:bootloader_common.*(.literal .text .literal.* .text.*)
- *fill*         0x4007885d        0x3 
+ *fill*         0x40078991        0x3 
  .text.bootloader_common_ota_select_crc
-                0x40078860       0x14 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
-                0x40078860                bootloader_common_ota_select_crc
+                0x40078994       0x14 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x40078994                bootloader_common_ota_select_crc
  .text.bootloader_common_ota_select_valid
-                0x40078874       0x20 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x400789a8       0x20 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
                                  0x24 (size before relaxing)
-                0x40078874                bootloader_common_ota_select_valid
- *fill*         0x40078894        0x0 
+                0x400789a8                bootloader_common_ota_select_valid
+ *fill*         0x400789c8        0x0 
  *libbootloader_support.a:bootloader_flash.*(.literal .text .literal.* .text.*)
  .text.spi_to_esp_err
-                0x40078894       0x22 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- *fill*         0x400788b6        0x2 
+                0x400789c8       0x22 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x400789ea        0x2 
  .text.bootloader_flash_read_allow_decrypt
-                0x400788b8       0x7c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x400789ec       0x97 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                 0x9b (size before relaxing)
+ *fill*         0x40078a83        0x1 
  .text.bootloader_flash_read_no_decrypt
-                0x40078934       0x32 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x40078a84       0x32 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                  0x36 (size before relaxing)
- *fill*         0x40078966        0x2 
+ *fill*         0x40078ab6        0x2 
  .text.bootloader_mmap
-                0x40078968       0x75 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                0x40078968                bootloader_mmap
- *fill*         0x400789dd        0x3 
+                0x40078ab8       0xb1 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                 0xb9 (size before relaxing)
+                0x40078ab8                bootloader_mmap
+ *fill*         0x40078b69        0x3 
  .text.bootloader_munmap
-                0x400789e0       0x36 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                0x400789e0                bootloader_munmap
- *fill*         0x40078a16        0x2 
+                0x40078b6c       0x36 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x40078b6c                bootloader_munmap
+ *fill*         0x40078ba2        0x2 
  .text.bootloader_flash_read
-                0x40078a18       0x40 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                                 0x44 (size before relaxing)
-                0x40078a18                bootloader_flash_read
- *fill*         0x40078a58        0x0 
- *fill*         0x40078a58        0x0 
- *fill*         0x40078a58        0x0 
- *fill*         0x40078a58        0x0 
+                0x40078ba4       0x86 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x40078ba4                bootloader_flash_read
+ *fill*         0x40078c2a        0x0 
+ *fill*         0x40078c2a        0x0 
+ *fill*         0x40078c2a        0x0 
+ *fill*         0x40078c2a        0x0 
+ *fill*         0x40078c2a        0x0 
  *libbootloader_support.a:bootloader_random.*(.literal .text .literal.* .text.*)
+ *fill*         0x40078c2a        0x2 
  .text.bootloader_fill_random
-                0x40078a58       0x6a /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x40078c2c       0x6a /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
                                  0x6e (size before relaxing)
-                0x40078a58                bootloader_fill_random
- *fill*         0x40078ac2        0x2 
+                0x40078c2c                bootloader_fill_random
+ *fill*         0x40078c96        0x2 
  .text.bootloader_random_enable
-                0x40078ac4      0x1d5 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                0x40078ac4                bootloader_random_enable
- *fill*         0x40078c99        0x3 
+                0x40078c98      0x1d5 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x40078c98                bootloader_random_enable
+ *fill*         0x40078e6d        0x3 
  .text.bootloader_random_disable
-                0x40078c9c      0x11c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                0x40078c9c                bootloader_random_disable
- *fill*         0x40078db8        0x0 
- *fill*         0x40078db8        0x0 
+                0x40078e70      0x11c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x40078e70                bootloader_random_disable
+ *fill*         0x40078f8c        0x0 
+ *fill*         0x40078f8c        0x0 
+ *fill*         0x40078f8c        0x0 
  *libbootloader_support.a:bootloader_utility.*(.literal .text .literal.* .text.*)
+ .text.log_invalid_app_partition
+                0x40078f8c       0x57 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                 0x5b (size before relaxing)
+ *fill*         0x40078fe3        0x1 
  .text.try_load_partition
-                0x40078db8       0x20 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x40078fe4       0x31 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                 0x35 (size before relaxing)
+ *fill*         0x40079015        0x3 
  .text.set_cache_and_start_app
-                0x40078dd8       0xce /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- *fill*         0x40078ea6        0x2 
+                0x40079018       0xce /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ *fill*         0x400790e6        0x2 
  .text.unpack_load_app
-                0x40078ea8       0x64 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                 0x68 (size before relaxing)
+                0x400790e8       0xb0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                 0xb4 (size before relaxing)
  .text.load_image
-                0x40078f0c        0xb /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                 0x11 (size before relaxing)
- *fill*         0x40078f17        0x1 
+                0x40079198       0x1e /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                 0x26 (size before relaxing)
+ *fill*         0x400791b6        0x2 
  .text.bootloader_utility_load_partition_table
-                0x40078f18       0xa0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                 0xa8 (size before relaxing)
-                0x40078f18                bootloader_utility_load_partition_table
+                0x400791b8      0x160 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                0x17c (size before relaxing)
+                0x400791b8                bootloader_utility_load_partition_table
  .text.bootloader_utility_get_selected_boot_partition
-                0x40078fb8       0xbe /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                 0xc6 (size before relaxing)
-                0x40078fb8                bootloader_utility_get_selected_boot_partition
- *fill*         0x40079076        0x2 
+                0x40079318      0x148 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                0x154 (size before relaxing)
+                0x40079318                bootloader_utility_get_selected_boot_partition
  .text.bootloader_reset
-                0x40079078       0x2b /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                0x40079078                bootloader_reset
- *fill*         0x400790a3        0x1 
+                0x40079460       0x2b /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x40079460                bootloader_reset
+ *fill*         0x4007948b        0x1 
  .text.bootloader_utility_load_boot_image
-                0x400790a4       0x94 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                 0xb3 (size before relaxing)
-                0x400790a4                bootloader_utility_load_boot_image
- *fill*         0x40079138        0x0 
+                0x4007948c       0xdb /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                 0xff (size before relaxing)
+                0x4007948c                bootloader_utility_load_boot_image
+ *fill*         0x40079567        0x1 
  .text.index_to_partition
-                0x40079138       0x48 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- *fill*         0x40079180        0x0 
- *fill*         0x40079180        0x0 
- *fill*         0x40079180        0x0 
- *fill*         0x40079180        0x0 
+                0x40079568       0x48 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ *fill*         0x400795b0        0x0 
+ *fill*         0x400795b0        0x0 
+ *fill*         0x400795b0        0x0 
+ *fill*         0x400795b0        0x0 
+ *fill*         0x400795b0        0x0 
  *libbootloader_support.a:bootloader_sha.*(.literal .text .literal.* .text.*)
  .text.bootloader_sha256_start
-                0x40079180       0x12 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
-                0x40079180                bootloader_sha256_start
- *fill*         0x40079192        0x2 
+                0x400795b0       0x12 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x400795b0                bootloader_sha256_start
+ *fill*         0x400795c2        0x2 
  .text.bootloader_sha256_data
-                0x40079194       0xa1 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x400795c4       0xa1 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                  0xa9 (size before relaxing)
-                0x40079194                bootloader_sha256_data
- *fill*         0x40079235        0x3 
+                0x400795c4                bootloader_sha256_data
+ *fill*         0x40079665        0x3 
  .text.bootloader_sha256_finish
-                0x40079238       0xdc /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x40079668       0xdc /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                  0xf0 (size before relaxing)
-                0x40079238                bootloader_sha256_finish
- *fill*         0x40079314        0x0 
- *fill*         0x40079314        0x0 
- *fill*         0x40079314        0x0 
+                0x40079668                bootloader_sha256_finish
+ *fill*         0x40079744        0x0 
+ *fill*         0x40079744        0x0 
+ *fill*         0x40079744        0x0 
  .text.bootloader_sha256_hex_to_str
-                0x40079314       0x72 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
-                0x40079314                bootloader_sha256_hex_to_str
+                0x40079744       0x72 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x40079744                bootloader_sha256_hex_to_str
  *libbootloader_support.a:efuse.*(.literal .text .literal.* .text.*)
  *libbootloader_support.a:esp_image_format.*(.literal .text .literal.* .text.*)
- *fill*         0x40079386        0x2 
- .text.verify_image_header
-                0x40079388       0x15 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- *fill*         0x4007939d        0x3 
+ *fill*         0x400797b6        0x2 
  .text.should_map
-                0x400793a0       0x30 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x400797b8       0x30 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .text.verify_image_header
+                0x400797e8       0x7e /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ *fill*         0x40079866        0x2 
  .text.verify_segment_header
-                0x400793d0       0x3d /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- *fill*         0x4007940d        0x3 
- .text.verify_checksum
-                0x40079410       0x75 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x40079868       0x71 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                  0x79 (size before relaxing)
- *fill*         0x40079485        0x3 
+ *fill*         0x400798d9        0x3 
+ .text.verify_checksum
+                0x400798dc       0x87 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                 0x8f (size before relaxing)
+ *fill*         0x40079963        0x1 
  .text.process_segment_data
-                0x40079488       0x90 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                 0x98 (size before relaxing)
+                0x40079964       0xa4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                 0xb0 (size before relaxing)
  .text.debug_log_hash
-                0x40079518       0x16 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- *fill*         0x4007952e        0x2 
+                0x40079a08       0x16 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ *fill*         0x40079a1e        0x2 
  .text.verify_simple_hash
-                0x40079530       0x59 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                 0x6c (size before relaxing)
- *fill*         0x40079589        0x3 
+                0x40079a20       0x69 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                 0x80 (size before relaxing)
+ *fill*         0x40079a89        0x3 
  .text.should_load
-                0x4007958c       0x44 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x40079a8c       0x44 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                  0x48 (size before relaxing)
  .text.process_segment
-                0x400795d0       0x9e /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                 0xa6 (size before relaxing)
- *fill*         0x4007966e        0x2 
+                0x40079ad0      0x13a /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                0x146 (size before relaxing)
+ *fill*         0x40079c0a        0x2 
  .text.image_load
-                0x40079670      0x212 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                0x22a (size before relaxing)
- *fill*         0x40079882        0x2 
+                0x40079c0c      0x28a /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                0x2aa (size before relaxing)
+ *fill*         0x40079e96        0x2 
  .text.bootloader_load_image
-                0x40079884       0x10 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x40079e98       0x10 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                  0x14 (size before relaxing)
-                0x40079884                bootloader_load_image
- *fill*         0x40079894        0x0 
- *fill*         0x40079894        0x0 
- *fill*         0x40079894        0x0 
- *fill*         0x40079894        0x0 
- *fill*         0x40079894        0x0 
- *fill*         0x40079894        0x0 
- *fill*         0x40079894        0x0 
+                0x40079e98                bootloader_load_image
+ *fill*         0x40079ea8        0x0 
+ *fill*         0x40079ea8        0x0 
+ *fill*         0x40079ea8        0x0 
+ *fill*         0x40079ea8        0x0 
+ *fill*         0x40079ea8        0x0 
+ *fill*         0x40079ea8        0x0 
+ *fill*         0x40079ea8        0x0 
  *libbootloader_support.a:flash_encrypt.*(.literal .text .literal.* .text.*)
  *libbootloader_support.a:flash_partitions.*(.literal .text .literal.* .text.*)
  .text.esp_partition_table_verify
-                0x40079894       0xa1 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
-                0x40079894                esp_partition_table_verify
+                0x40079ea8      0x143 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                                0x14f (size before relaxing)
+                0x40079ea8                esp_partition_table_verify
  *libbootloader_support.a:secure_boot.*(.literal .text .literal.* .text.*)
  *libbootloader_support.a:secure_boot_signatures.*(.literal .text .literal.* .text.*)
  *libmicro-ecc.a:*.*(.literal .text .literal.* .text.*)
  *libspi_flash.a:*.*(.literal .text .literal.* .text.*)
- *fill*         0x40079935        0x3 
+ *fill*         0x40079feb        0x1 
  .text.esp_rom_spiflash_read_status
-                0x40079938       0x61 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                0x40079938                esp_rom_spiflash_read_status
- *fill*         0x40079999        0x3 
+                0x40079fec       0x61 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x40079fec                esp_rom_spiflash_read_status
+ *fill*         0x4007a04d        0x3 
  .text.esp_rom_spiflash_wait_idle
-                0x4007999c       0x32 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                0x4007999c                esp_rom_spiflash_wait_idle
- *fill*         0x400799ce        0x2 
+                0x4007a050       0x32 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x4007a050                esp_rom_spiflash_wait_idle
+ *fill*         0x4007a082        0x2 
  .text.esp_rom_spiflash_read_data
-                0x400799d0       0xe2 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- *fill*         0x40079ab2        0x2 
+                0x4007a084       0xe2 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ *fill*         0x4007a166        0x2 
  .text.esp_rom_spiflash_read_statushigh
-                0x40079ab4       0x21 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                0x40079ab4                esp_rom_spiflash_read_statushigh
- *fill*         0x40079ad5        0x3 
+                0x4007a168       0x21 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x4007a168                esp_rom_spiflash_read_statushigh
+ *fill*         0x4007a189        0x3 
  .text.esp_rom_spiflash_write_status
-                0x40079ad8       0x34 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x4007a18c       0x34 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                  0x38 (size before relaxing)
-                0x40079ad8                esp_rom_spiflash_write_status
+                0x4007a18c                esp_rom_spiflash_write_status
  .text.esp_rom_spiflash_unlock
-                0x40079b0c       0x6a /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x4007a1c0       0x6a /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                  0x7e (size before relaxing)
-                0x40079b0c                esp_rom_spiflash_unlock
- *fill*         0x40079b76        0x2 
+                0x4007a1c0                esp_rom_spiflash_unlock
+ *fill*         0x4007a22a        0x2 
  .text.esp_rom_spiflash_read
-                0x40079b78      0x284 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                0x40079b78                esp_rom_spiflash_read
- *fill*         0x40079dfc        0x0 
- *fill*         0x40079dfc        0x0 
- *fill*         0x40079dfc        0x0 
- *fill*         0x40079dfc        0x0 
- *fill*         0x40079dfc        0x0 
- *fill*         0x40079dfc        0x0 
+                0x4007a22c      0x284 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x4007a22c                esp_rom_spiflash_read
+ *fill*         0x4007a4b0        0x0 
+ *fill*         0x4007a4b0        0x0 
+ *fill*         0x4007a4b0        0x0 
+ *fill*         0x4007a4b0        0x0 
+ *fill*         0x4007a4b0        0x0 
+ *fill*         0x4007a4b0        0x0 
  *(.fini.literal)
  *(.fini)
  *(.gnu.version)
-                0x40079dfc                _loader_text_end = ABSOLUTE (.)
-                0x40079dfc                _etext = .
+                0x4007a4b0                _loader_text_end = ABSOLUTE (.)
+                0x4007a4b0                _etext = .
 
-.iram.text      0x40080400     0x1536
+.iram.text      0x40080400     0x17f5
                 0x40080400                . = ALIGN (0x10)
  *(.entry.text)
  *(.init.literal)
@@ -822,349 +843,355 @@ END GROUP
                 0x40080400        0x0 /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
                                   0x4 (size before relaxing)
  .literal.select_partition_number
-                0x40080400        0x0 /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
-                                  0x8 (size before relaxing)
- .literal.call_start_cpu0
-                0x40080400        0x4 /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x40080400        0xc /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
                                  0x18 (size before relaxing)
- .literal.print_flash_info
-                0x40080404        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .literal.call_start_cpu0
+                0x4008040c        0x4 /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
+                                 0x18 (size before relaxing)
  .literal.wdt_reset_cpu0_info_enable
-                0x40080408        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x40080410        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .literal.wdt_reset_info_dump
-                0x4008040c       0x48 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x40080414       0x5c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                 0x6c (size before relaxing)
+ .literal.print_flash_info
+                0x40080470       0x4c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                 0x68 (size before relaxing)
  .literal.vddsdio_configure
-                0x40080454        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x400804bc        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                   0xc (size before relaxing)
  .literal.uart_console_configure
-                0x40080458       0x14 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x400804c0       0x14 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                  0x18 (size before relaxing)
  .literal.wdt_reset_check
-                0x4008046c        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
-                                 0x14 (size before relaxing)
+                0x400804d4        0xc /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                 0x30 (size before relaxing)
  .literal.update_flash_config
-                0x40080470       0x20 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x400804e0       0x20 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .literal.bootloader_main
-                0x40080490       0x18 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
-                                 0x6c (size before relaxing)
+                0x40080500       0x2c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                 0xa4 (size before relaxing)
+ .literal.__assert_func
+                0x4008052c        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                 0x10 (size before relaxing)
  .literal.bootloader_init
-                0x400804a8       0x48 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x40080530       0x48 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                  0x74 (size before relaxing)
  .literal.execute_flash_command
-                0x400804f0       0x38 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x40080578       0x38 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
                                  0x3c (size before relaxing)
  .literal.bootloader_read_flash_id
-                0x40080528        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x400805b0        0x4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
                                   0x8 (size before relaxing)
  .literal.bootloader_clock_configure
-                0x4008052c       0x18 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+                0x400805b4       0x18 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
                                  0x28 (size before relaxing)
  .literal.rtc_clk_32k_enable_common
-                0x40080544       0x14 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x400805cc       0x14 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_32k_enable
-                0x40080558        0x4 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x400805e0        0x4 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                   0xc (size before relaxing)
  .literal.rtc_clk_8m_enable
-                0x4008055c        0xc /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x400805e4        0xc /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                  0x10 (size before relaxing)
  .literal.rtc_clk_8m_enabled
-                0x40080568        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x400805f0        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                   0x4 (size before relaxing)
  .literal.rtc_clk_8md256_enabled
-                0x40080568        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x400805f0        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                   0x4 (size before relaxing)
  .literal.rtc_clk_slow_freq_set
-                0x40080568        0x4 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x400805f0        0x4 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                   0xc (size before relaxing)
  .literal.rtc_clk_slow_freq_get
-                0x4008056c        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x400805f4        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                   0x4 (size before relaxing)
  .literal.rtc_clk_slow_freq_get_hz
-                0x4008056c        0xc /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x400805f4        0xc /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                  0x10 (size before relaxing)
  .literal.rtc_clk_fast_freq_set
-                0x40080578        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x40080600        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                   0xc (size before relaxing)
  .literal.rtc_clk_fast_freq_get
-                0x40080578        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x40080600        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                   0x4 (size before relaxing)
  .literal.rtc_clk_xtal_freq_get
-                0x40080578        0x8 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x40080600        0x8 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_cpu_freq_mhz_to_config
-                0x40080580        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x40080608        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                   0x4 (size before relaxing)
  .literal.rtc_clk_cpu_freq_get_config
-                0x40080580       0x14 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x40080608       0x14 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                  0x24 (size before relaxing)
  .literal.rtc_clk_xtal_freq_update
-                0x40080594        0x4 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x4008061c        0x4 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                   0x8 (size before relaxing)
  .literal.rtc_clk_apb_freq_update
-                0x40080598        0x4 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x40080620        0x4 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_cpu_freq_to_xtal
-                0x4008059c       0x1c /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x40080624       0x1c /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                  0x34 (size before relaxing)
  .literal.rtc_clk_apb_freq_get
-                0x400805b8        0x4 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x40080640        0x4 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                  0x10 (size before relaxing)
  .literal.rtc_clk_xtal_freq_estimate
-                0x400805bc        0xc /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
-                                 0x20 (size before relaxing)
+                0x40080644       0x20 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+                                 0x4c (size before relaxing)
  .literal.rtc_clk_init
-                0x400805c8       0x30 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
-                                 0x80 (size before relaxing)
+                0x40080664       0x38 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+                                 0x9c (size before relaxing)
  .literal.rtc_vddsdio_get_config
-                0x400805f8       0x28 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x4008069c       0x28 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
                                  0x30 (size before relaxing)
  .literal.rtc_vddsdio_set_config
-                0x40080620        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x400806c4        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
                                   0x8 (size before relaxing)
  .literal.rtc_clk_cal_internal
-                0x40080620       0x30 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x400806c4       0x30 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
                                  0x64 (size before relaxing)
  .literal.rtc_clk_cal_ratio
-                0x40080650        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x400806f4        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
                                   0x8 (size before relaxing)
  .literal.rtc_wdt_get_protect_status
-                0x40080650        0x8 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x400806f4        0x8 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
  .literal.rtc_wdt_protect_off
-                0x40080658        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x400806fc        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
                                   0x8 (size before relaxing)
  .literal.rtc_wdt_protect_on
-                0x40080658        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x400806fc        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
                                   0x4 (size before relaxing)
  .literal.rtc_wdt_enable
-                0x40080658        0xc /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x400806fc        0xc /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
                                  0x10 (size before relaxing)
  .literal.rtc_wdt_set_time
-                0x40080664       0x14 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x40080708       0x14 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
                                  0x20 (size before relaxing)
  .literal.rtc_wdt_set_stage
-                0x40080678       0x10 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x4008071c       0x10 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
                                  0x14 (size before relaxing)
  .literal.rtc_wdt_disable
-                0x40080688        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x4008072c        0x0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
                                  0x2c (size before relaxing)
  .literal.rtc_wdt_set_length_of_reset_signal
-                0x40080688        0x4 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x4008072c        0x4 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
                                   0xc (size before relaxing)
  .text.selected_boot_partition
-                0x4008068c        0xc /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x40080730        0xc /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
                                  0x10 (size before relaxing)
  .text.select_partition_number
-                0x40080698       0x1d /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
-                                 0x21 (size before relaxing)
- *fill*         0x400806b5        0x3 
+                0x4008073c       0x30 /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
+                                 0x34 (size before relaxing)
  .text.call_start_cpu0
-                0x400806b8       0x35 /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x4008076c       0x35 /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
                                  0x3c (size before relaxing)
-                0x400806b8                call_start_cpu0
- *fill*         0x400806ed        0x3 
- .text.print_flash_info
-                0x400806f0        0xd /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- *fill*         0x400806fd        0x3 
+                0x4008076c                call_start_cpu0
+ *fill*         0x400807a1        0x3 
  .text.wdt_reset_cpu0_info_enable
-                0x40080700       0x27 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- *fill*         0x40080727        0x1 
+                0x400807a4       0x27 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ *fill*         0x400807cb        0x1 
  .text.wdt_reset_info_dump
-                0x40080728       0x9a /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- *fill*         0x400807c2        0x2 
+                0x400807cc       0xe6 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ *fill*         0x400808b2        0x2 
+ .text.print_flash_info
+                0x400808b4       0xf6 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ *fill*         0x400809aa        0x2 
  .text.vddsdio_configure
-                0x400807c4       0x33 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x400809ac       0x33 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                  0x37 (size before relaxing)
- *fill*         0x400807f7        0x1 
+ *fill*         0x400809df        0x1 
  .text.uart_console_configure
-                0x400807f8       0x36 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x400809e0       0x36 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                  0x3a (size before relaxing)
- *fill*         0x4008082e        0x2 
+ *fill*         0x40080a16        0x2 
  .text.wdt_reset_check
-                0x40080830       0xa1 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
-                                 0xa8 (size before relaxing)
- *fill*         0x400808d1        0x3 
+                0x40080a18       0xa2 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                 0xae (size before relaxing)
+ *fill*         0x40080aba        0x2 
  .text.update_flash_config
-                0x400808d4       0x68 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x40080abc       0x68 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .text.bootloader_main
-                0x4008093c       0x9a /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
-                                 0xd6 (size before relaxing)
- *fill*         0x400809d6        0x2 
+                0x40080b24       0xe0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                0x128 (size before relaxing)
+ .text.__assert_func
+                0x40080c04       0x1f /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                 0x23 (size before relaxing)
+                0x40080c04                __assert_func
+ *fill*         0x40080c23        0x1 
  .text.bootloader_init
-                0x400809d8      0x12a /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x40080c24      0x12a /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                 0x136 (size before relaxing)
-                0x400809d8                bootloader_init
- *fill*         0x40080b02        0x2 
+                0x40080c24                bootloader_init
+ *fill*         0x40080d4e        0x2 
  .text.execute_flash_command
-                0x40080b04      0x190 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x40080d50      0x190 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .text.bootloader_read_flash_id
-                0x40080c94       0x27 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x40080ee0       0x27 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
                                  0x2b (size before relaxing)
-                0x40080c94                bootloader_read_flash_id
- *fill*         0x40080cbb        0x1 
+                0x40080ee0                bootloader_read_flash_id
+ *fill*         0x40080f07        0x1 
  .text.bootloader_clock_configure
-                0x40080cbc       0x6e /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+                0x40080f08       0x6e /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
                                  0x76 (size before relaxing)
-                0x40080cbc                bootloader_clock_configure
- *fill*         0x40080d2a        0x2 
+                0x40080f08                bootloader_clock_configure
+ *fill*         0x40080f76        0x2 
  .text.rtc_clk_32k_enable_common
-                0x40080d2c       0x81 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
- *fill*         0x40080dad        0x3 
+                0x40080f78       0x81 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ *fill*         0x40080ff9        0x3 
  .text.rtc_clk_32k_enable
-                0x40080db0       0x2d /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x40080db0                rtc_clk_32k_enable
- *fill*         0x40080ddd        0x3 
+                0x40080ffc       0x2d /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x40080ffc                rtc_clk_32k_enable
+ *fill*         0x40081029        0x3 
  .text.rtc_clk_8m_enable
-                0x40080de0       0x9b /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x40080de0                rtc_clk_8m_enable
- *fill*         0x40080e7b        0x1 
+                0x4008102c       0x9b /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x4008102c                rtc_clk_8m_enable
+ *fill*         0x400810c7        0x1 
  .text.rtc_clk_8m_enabled
-                0x40080e7c       0x19 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x40080e7c                rtc_clk_8m_enabled
- *fill*         0x40080e95        0x3 
+                0x400810c8       0x19 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x400810c8                rtc_clk_8m_enabled
+ *fill*         0x400810e1        0x3 
  .text.rtc_clk_8md256_enabled
-                0x40080e98       0x1a /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x40080e98                rtc_clk_8md256_enabled
- *fill*         0x40080eb2        0x2 
+                0x400810e4       0x1a /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x400810e4                rtc_clk_8md256_enabled
+ *fill*         0x400810fe        0x2 
  .text.rtc_clk_slow_freq_set
-                0x40080eb4       0x48 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x40080eb4                rtc_clk_slow_freq_set
+                0x40081100       0x48 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x40081100                rtc_clk_slow_freq_set
  .text.rtc_clk_slow_freq_get
-                0x40080efc       0x10 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x40080efc                rtc_clk_slow_freq_get
+                0x40081148       0x10 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x40081148                rtc_clk_slow_freq_get
  .text.rtc_clk_slow_freq_get_hz
-                0x40080f0c       0x29 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x40080f0c                rtc_clk_slow_freq_get_hz
- *fill*         0x40080f35        0x3 
+                0x40081158       0x29 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x40081158                rtc_clk_slow_freq_get_hz
+ *fill*         0x40081181        0x3 
  .text.rtc_clk_fast_freq_set
-                0x40080f38       0x2a /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x40080f38                rtc_clk_fast_freq_set
- *fill*         0x40080f62        0x2 
+                0x40081184       0x2a /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x40081184                rtc_clk_fast_freq_set
+ *fill*         0x400811ae        0x2 
  .text.rtc_clk_fast_freq_get
-                0x40080f64       0x10 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x40080f64                rtc_clk_fast_freq_get
+                0x400811b0       0x10 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x400811b0                rtc_clk_fast_freq_get
  .text.rtc_clk_xtal_freq_get
-                0x40080f74       0x35 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x40080f74                rtc_get_xtal
-                0x40080f74                rtc_clk_xtal_freq_get
- *fill*         0x40080fa9        0x3 
+                0x400811c0       0x35 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x400811c0                rtc_get_xtal
+                0x400811c0                rtc_clk_xtal_freq_get
+ *fill*         0x400811f5        0x3 
  .text.rtc_clk_cpu_freq_mhz_to_config
-                0x40080fac       0x61 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x40080fac                rtc_clk_cpu_freq_mhz_to_config
- *fill*         0x4008100d        0x3 
+                0x400811f8       0x61 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x400811f8                rtc_clk_cpu_freq_mhz_to_config
+ *fill*         0x40081259        0x3 
  .text.rtc_clk_cpu_freq_get_config
-                0x40081010       0xa1 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x4008125c       0xa1 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                  0xa5 (size before relaxing)
-                0x40081010                rtc_clk_cpu_freq_get_config
- *fill*         0x400810b1        0x3 
+                0x4008125c                rtc_clk_cpu_freq_get_config
+ *fill*         0x400812fd        0x3 
  .text.rtc_clk_xtal_freq_update
-                0x400810b4       0x2c /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x400810b4                rtc_clk_xtal_freq_update
+                0x40081300       0x2c /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x40081300                rtc_clk_xtal_freq_update
  .text.rtc_clk_apb_freq_update
-                0x400810e0       0x19 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x400810e0                rtc_clk_apb_freq_update
- *fill*         0x400810f9        0x3 
+                0x4008132c       0x19 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x4008132c                rtc_clk_apb_freq_update
+ *fill*         0x40081345        0x3 
  .text.rtc_clk_cpu_freq_to_xtal
-                0x400810fc       0x9f /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x40081348       0x9f /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                  0xa3 (size before relaxing)
-                0x400810fc                rtc_clk_cpu_freq_to_xtal
- *fill*         0x4008119b        0x1 
+                0x40081348                rtc_clk_cpu_freq_to_xtal
+ *fill*         0x400813e7        0x1 
  .text.rtc_clk_apb_freq_get
-                0x4008119c       0x27 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x4008119c                rtc_clk_apb_freq_get
- *fill*         0x400811c3        0x1 
+                0x400813e8       0x27 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x400813e8                rtc_clk_apb_freq_get
+ *fill*         0x4008140f        0x1 
  .text.rtc_clk_xtal_freq_estimate
-                0x400811c4       0x58 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
-                                 0x64 (size before relaxing)
+                0x40081410       0xa6 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+                                 0xb2 (size before relaxing)
+ *fill*         0x400814b6        0x2 
  .text.rtc_clk_init
-                0x4008121c      0x1a6 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
-                                0x1c6 (size before relaxing)
-                0x4008121c                rtc_clk_init
- *fill*         0x400813c2        0x2 
+                0x400814b8      0x1d2 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+                                0x1fa (size before relaxing)
+                0x400814b8                rtc_clk_init
+ *fill*         0x4008168a        0x2 
  .text.rtc_vddsdio_get_config
-                0x400813c4      0x104 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
-                0x400813c4                rtc_vddsdio_get_config
+                0x4008168c      0x104 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x4008168c                rtc_vddsdio_get_config
  .text.rtc_vddsdio_set_config
-                0x400814c8       0x46 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
-                0x400814c8                rtc_vddsdio_set_config
- *fill*         0x4008150e        0x2 
+                0x40081790       0x46 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x40081790                rtc_vddsdio_set_config
+ *fill*         0x400817d6        0x2 
  .text.rtc_clk_cal_internal
-                0x40081510      0x1b0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x400817d8      0x1b0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
                                 0x1c0 (size before relaxing)
  .text.rtc_clk_cal_ratio
-                0x400816c0       0x20 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x40081988       0x20 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
                                  0x24 (size before relaxing)
-                0x400816c0                rtc_clk_cal_ratio
+                0x40081988                rtc_clk_cal_ratio
  .text.rtc_wdt_get_protect_status
-                0x400816e0       0x19 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
-                0x400816e0                rtc_wdt_get_protect_status
- *fill*         0x400816f9        0x3 
+                0x400819a8       0x19 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x400819a8                rtc_wdt_get_protect_status
+ *fill*         0x400819c1        0x3 
  .text.rtc_wdt_protect_off
-                0x400816fc       0x10 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
-                0x400816fc                rtc_wdt_protect_off
+                0x400819c4       0x10 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x400819c4                rtc_wdt_protect_off
  .text.rtc_wdt_protect_on
-                0x4008170c        0xf /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
-                0x4008170c                rtc_wdt_protect_on
- *fill*         0x4008171b        0x1 
+                0x400819d4        0xf /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x400819d4                rtc_wdt_protect_on
+ *fill*         0x400819e3        0x1 
  .text.rtc_wdt_enable
-                0x4008171c       0x2b /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
-                0x4008171c                rtc_wdt_enable
- *fill*         0x40081747        0x1 
+                0x400819e4       0x2b /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x400819e4                rtc_wdt_enable
+ *fill*         0x40081a0f        0x1 
  .text.rtc_wdt_set_time
-                0x40081748       0x59 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x40081a10       0x59 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
                                  0x5d (size before relaxing)
-                0x40081748                rtc_wdt_set_time
- *fill*         0x400817a1        0x3 
+                0x40081a10                rtc_wdt_set_time
+ *fill*         0x40081a69        0x3 
  .text.rtc_wdt_set_stage
-                0x400817a4       0xb1 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
-                0x400817a4                rtc_wdt_set_stage
- *fill*         0x40081855        0x3 
+                0x40081a6c       0xb1 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x40081a6c                rtc_wdt_set_stage
+ *fill*         0x40081b1d        0x3 
  .text.rtc_wdt_disable
-                0x40081858       0x6a /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x40081b20       0x6a /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
                                  0x7e (size before relaxing)
-                0x40081858                rtc_wdt_disable
- *fill*         0x400818c2        0x2 
+                0x40081b20                rtc_wdt_disable
+ *fill*         0x40081b8a        0x2 
  .text.rtc_wdt_set_length_of_reset_signal
-                0x400818c4       0x69 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
-                0x400818c4                rtc_wdt_set_length_of_reset_signal
- *fill*         0x4008192d        0x0 
- *fill*         0x4008192d        0x0 
- *fill*         0x4008192d        0x0 
- *fill*         0x4008192d        0x0 
- *fill*         0x4008192d        0x0 
- *fill*         0x4008192d        0x0 
- *fill*         0x4008192d        0x3 
- .text.__assert_func
-                0x40081930        0x6 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
-                0x40081930                __assert_func
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
- *fill*         0x40081936        0x0 
+                0x40081b8c       0x69 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x40081b8c                rtc_wdt_set_length_of_reset_signal
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
+ *fill*         0x40081bf5        0x0 
  *(.iram .iram.*)
  *(.fini.literal)
  *(.fini)
  *(.gnu.version)
-                0x40081936                _text_end = ABSOLUTE (.)
-                0x40081936                _etext = .
+                0x40081bf5                _text_end = ABSOLUTE (.)
+                0x40081bf5                _etext = .
 
 .dram0.bss      0x3fff0000       0x10
                 0x3fff0000                . = ALIGN (0x8)
@@ -1208,85 +1235,102 @@ END GROUP
  *(.jcr)
                 0x3fff0014                _data_end = ABSOLUTE (.)
 
-.dram0.rodata   0x3fff0014      0x48c
+.dram0.rodata   0x3fff0014     0x17d0
                 0x3fff0014                _rodata_start = ABSOLUTE (.)
  *(.rodata)
  .rodata        0x3fff0014       0x14 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .rodata        0x3fff0028        0x8 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
  *(.rodata.*)
  .rodata.str1.4
-                0x3fff0030       0xae /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- *fill*         0x3fff00de        0x2 
+                0x3fff0030       0x3b /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
+ *fill*         0x3fff006b        0x1 
+ .rodata.str1.4
+                0x3fff006c      0x3c2 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                0x3ca (size before relaxing)
+ *fill*         0x3fff042e        0x2 
  .rodata.__func__$4446
-                0x3fff00e0       0x10 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x3fff0430       0x10 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .rodata.str1.4
-                0x3fff00f0       0x62 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- *fill*         0x3fff0152        0x2 
+                0x3fff0440       0x62 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ *fill*         0x3fff04a2        0x2 
  .rodata.__func__$2287
-                0x3fff0154       0x17 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- *fill*         0x3fff016b        0x1 
+                0x3fff04a4       0x17 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ *fill*         0x3fff04bb        0x1 
  .rodata.str1.4
-                0x3fff016c       0x1e /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- *fill*         0x3fff018a        0x2 
+                0x3fff04bc      0x5a5 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                0x5ad (size before relaxing)
+ *fill*         0x3fff0a61        0x3 
  .rodata.str1.4
-                0x3fff018c       0xcc /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x3fff0a64      0x47a /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                0x4ba (size before relaxing)
+ *fill*         0x3fff0ede        0x2 
+ .rodata.str1.4
+                0x3fff0ee0      0x163 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ *fill*         0x3fff1043        0x1 
+ .rodata.str1.4
+                0x3fff1044      0x28e /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x3fff12d2        0x2 
+ .rodata.str1.4
+                0x3fff12d4       0xcc /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .rodata.padding$3883
-                0x3fff0258       0x40 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x3fff13a0       0x40 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .rodata.__func__$3879
-                0x3fff0298       0x19 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- *fill*         0x3fff02b1        0x3 
+                0x3fff13e0       0x19 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ *fill*         0x3fff13f9        0x3 
  .rodata.__func__$3859
-                0x3fff02b4       0x17 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- *fill*         0x3fff02cb        0x1 
+                0x3fff13fc       0x17 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ *fill*         0x3fff1413        0x1 
  .rodata.str1.4
-                0x3fff02cc       0xb1 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
- *fill*         0x3fff037d        0x3 
+                0x3fff1414       0xb1 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ *fill*         0x3fff14c5        0x3 
  .rodata.__func__$3548
-                0x3fff0380       0x1c /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x3fff14c8       0x1c /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .rodata.str1.4
-                0x3fff039c       0x68 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+                0x3fff14e4      0x200 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ .rodata.rtc_clk_xtal_freq_estimate
+                0x3fff16e4       0x64 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
  .rodata.__func__$3374
-                0x3fff0404        0xd /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
- *fill*         0x3fff0411        0x3 
+                0x3fff1748        0xd /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ *fill*         0x3fff1755        0x3 
  .rodata.str1.4
-                0x3fff0414       0x74 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x3fff1758       0x74 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
  .rodata.__func__$1815
-                0x3fff0488       0x15 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x3fff17cc       0x15 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
  *(.gnu.linkonce.r.*)
  *(.rodata1)
-                0x3fff049d                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
+                0x3fff17e1                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
  *(.xt_except_table)
  *(.gcc_except_table)
  *(.gnu.linkonce.e.*)
  *(.gnu.version_r)
  *(.eh_frame)
-                0x3fff04a0                . = ((. + 0x3) & 0xfffffffc)
- *fill*         0x3fff049d        0x3 
-                0x3fff04a0                __init_array_start = ABSOLUTE (.)
+                0x3fff17e4                . = ((. + 0x3) & 0xfffffffc)
+ *fill*         0x3fff17e1        0x3 
+                0x3fff17e4                __init_array_start = ABSOLUTE (.)
  *crtbegin.*(.ctors)
  *(EXCLUDE_FILE(*crtend.*) .ctors)
  *(SORT(.ctors.*))
  *(.ctors)
-                0x3fff04a0                __init_array_end = ABSOLUTE (.)
+                0x3fff17e4                __init_array_end = ABSOLUTE (.)
  *crtbegin.*(.dtors)
  *(EXCLUDE_FILE(*crtend.*) .dtors)
  *(SORT(.dtors.*))
  *(.dtors)
-                0x3fff04a0                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
+                0x3fff17e4                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
  *(.xt_except_desc)
  *(.gnu.linkonce.h.*)
-                0x3fff04a0                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
+                0x3fff17e4                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
  *(.xt_except_desc_end)
  *(.dynamic)
  *(.gnu.version_d)
-                0x3fff04a0                _rodata_end = ABSOLUTE (.)
-                0x3fff04a0                _lit4_start = ABSOLUTE (.)
+                0x3fff17e4                _rodata_end = ABSOLUTE (.)
+                0x3fff17e4                _lit4_start = ABSOLUTE (.)
  *(*.lit4)
  *(.lit4.*)
  *(.gnu.linkonce.lit4.*)
-                0x3fff04a0                _lit4_end = ABSOLUTE (.)
-                0x3fff04a0                . = ALIGN (0x4)
-                0x3fff04a0                _heap_start = ABSOLUTE (.)
+                0x3fff17e4                _lit4_end = ABSOLUTE (.)
+                0x3fff17e4                . = ALIGN (0x4)
+                0x3fff17e4                _heap_start = ABSOLUTE (.)
                 [!provide]                PROVIDE (abort, 0x4000bba4)
                 [!provide]                PROVIDE (Add2SelfBigHex256, 0x40015b7c)
                 [!provide]                PROVIDE (AddBigHex256, 0x40015b28)
@@ -2790,7 +2834,7 @@ END GROUP
                 [!provide]                PROVIDE (ets_install_putc1, 0x40007d18)
                 [!provide]                PROVIDE (ets_install_putc2, 0x40007d38)
                 0x40007d28                PROVIDE (ets_install_uart_printf, 0x40007d28)
-                [!provide]                PROVIDE (ets_printf, 0x40007d54)
+                0x40007d54                PROVIDE (ets_printf, 0x40007d54)
                 [!provide]                PROVIDE (rtc_boot_control, 0x4000821c)
                 0x400081d4                PROVIDE (rtc_get_reset_reason, 0x400081d4)
                 [!provide]                PROVIDE (rtc_get_wakeup_cause, 0x400081f4)
@@ -3049,100 +3093,100 @@ END GROUP
                 0x40008550                PROVIDE (ets_update_cpu_frequency, 0x40008550)
 OUTPUT(/home/zhangdidi/esp/blufi/build/bootloader/bootloader.elf elf32-xtensa-le)
 
-.debug_frame    0x00000000     0x1080
+.debug_frame    0x00000000     0x1098
  .debug_frame   0x00000000       0x58 /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
  .debug_frame   0x00000058      0x118 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .debug_frame   0x00000170       0x58 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_frame   0x000001c8       0xe8 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_frame   0x000002b0      0x148 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_frame   0x000003f8       0x28 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_frame   0x00000420      0x130 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_frame   0x00000550       0x28 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_frame   0x00000578       0xa0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_frame   0x00000618       0xe8 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_frame   0x00000700       0x70 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_frame   0x00000770       0x70 /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
- .debug_frame   0x000007e0      0x208 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_frame   0x000009e8       0x70 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_frame   0x00000a58      0x370 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_frame   0x00000dc8       0x40 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
- .debug_frame   0x00000e08       0x58 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_frame   0x00000e60       0xb8 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_frame   0x00000f18      0x118 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
- .debug_frame   0x00001030       0x28 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_frame   0x00001058       0x28 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_frame   0x000001c8      0x100 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_frame   0x000002c8      0x148 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_frame   0x00000410       0x28 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_frame   0x00000438      0x130 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_frame   0x00000568       0x28 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_frame   0x00000590       0xa0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_frame   0x00000630       0xe8 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_frame   0x00000718       0x70 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_frame   0x00000788       0x70 /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
+ .debug_frame   0x000007f8      0x208 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_frame   0x00000a00       0x70 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_frame   0x00000a70      0x370 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_frame   0x00000de0       0x40 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ .debug_frame   0x00000e20       0x58 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_frame   0x00000e78       0xb8 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_frame   0x00000f30      0x118 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+ .debug_frame   0x00001048       0x28 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_frame   0x00001070       0x28 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_info     0x00000000     0xc6fb
- .debug_info    0x00000000      0x2fc /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_info    0x000002fc     0x13f4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_info    0x000016f0      0x25e /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_info    0x0000194e      0xfbc /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_info    0x0000290a     0x10aa /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_info    0x000039b4      0x43c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_info    0x00003df0     0x2a4d /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_info    0x0000683d      0x27a /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_info    0x00006ab7      0x9f1 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_info    0x000074a8      0xb07 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_info    0x00007faf      0x507 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_info    0x000084b6      0x900 /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
- .debug_info    0x00008db6      0xaf5 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_info    0x000098ab      0x118 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_info    0x000099c3       0x95 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(gpio_periph.o)
- .debug_info    0x00009a58     0x13ca /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_info    0x0000ae22      0x6b9 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
- .debug_info    0x0000b4db      0x339 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_info    0x0000b814      0x45b /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_info    0x0000bc6f      0x3f7 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
- .debug_info    0x0000c066       0xcd /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_info    0x0000c133      0x5c8 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+.debug_info     0x00000000     0xd621
+ .debug_info    0x00000000      0x337 /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_info    0x00000337     0x1639 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_info    0x00001970      0x25e /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_info    0x00001bce     0x13e7 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_info    0x00002fb5     0x13ef /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_info    0x000043a4      0x526 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_info    0x000048ca     0x2adb /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_info    0x000073a5      0x27a /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_info    0x0000761f      0xaf0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_info    0x0000810f      0xccf /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_info    0x00008dde      0x507 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_info    0x000092e5      0x900 /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
+ .debug_info    0x00009be5      0xaf5 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_info    0x0000a6da      0x118 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_info    0x0000a7f2       0x95 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(gpio_periph.o)
+ .debug_info    0x0000a887     0x13ca /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_info    0x0000bc51      0x7b0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ .debug_info    0x0000c401      0x339 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_info    0x0000c73a      0x45b /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_info    0x0000cb95      0x3f7 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+ .debug_info    0x0000cf8c       0xcd /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_info    0x0000d059      0x5c8 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_abbrev   0x00000000     0x294d
- .debug_abbrev  0x00000000      0x161 /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_abbrev  0x00000161      0x3f4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_abbrev  0x00000555      0x13d /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_abbrev  0x00000692      0x35b /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_abbrev  0x000009ed      0x2c8 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_abbrev  0x00000cb5      0x17e /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_abbrev  0x00000e33      0x386 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_abbrev  0x000011b9      0x108 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_abbrev  0x000012c1      0x1f8 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_abbrev  0x000014b9      0x267 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_abbrev  0x00001720      0x1b1 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_abbrev  0x000018d1      0x1f3 /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
- .debug_abbrev  0x00001ac4      0x22e /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_abbrev  0x00001cf2       0x96 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_abbrev  0x00001d88       0x5b /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(gpio_periph.o)
- .debug_abbrev  0x00001de3      0x37c /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_abbrev  0x0000215f      0x213 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
- .debug_abbrev  0x00002372      0x135 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_abbrev  0x000024a7      0x1a0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_abbrev  0x00002647      0x147 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
- .debug_abbrev  0x0000278e       0x60 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_abbrev  0x000027ee      0x15f /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+.debug_abbrev   0x00000000     0x2937
+ .debug_abbrev  0x00000000      0x15a /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_abbrev  0x0000015a      0x3fc /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_abbrev  0x00000556      0x13d /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_abbrev  0x00000693      0x382 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_abbrev  0x00000a15      0x2af /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_abbrev  0x00000cc4      0x17b /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_abbrev  0x00000e3f      0x38e /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_abbrev  0x000011cd      0x108 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_abbrev  0x000012d5      0x1e4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_abbrev  0x000014b9      0x258 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_abbrev  0x00001711      0x1b1 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_abbrev  0x000018c2      0x1f3 /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
+ .debug_abbrev  0x00001ab5      0x22e /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_abbrev  0x00001ce3       0x96 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_abbrev  0x00001d79       0x5b /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(gpio_periph.o)
+ .debug_abbrev  0x00001dd4      0x37c /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_abbrev  0x00002150      0x20c /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ .debug_abbrev  0x0000235c      0x135 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_abbrev  0x00002491      0x1a0 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_abbrev  0x00002631      0x147 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+ .debug_abbrev  0x00002778       0x60 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_abbrev  0x000027d8      0x15f /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_loc      0x00000000     0x581c
+.debug_loc      0x00000000     0x5ac8
  .debug_loc     0x00000000       0x84 /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_loc     0x00000084      0x4f4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_loc     0x00000578       0x62 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_loc     0x000005da      0x889 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_loc     0x00000e63      0xb08 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_loc     0x0000196b      0x20f /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_loc     0x00001b7a      0x250 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_loc     0x00001dca      0x38c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_loc     0x00002156      0x760 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_loc     0x000028b6      0x1f2 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_loc     0x00002aa8      0x4ad /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
- .debug_loc     0x00002f55      0xa20 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_loc     0x00003975       0x13 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_loc     0x00003988      0xbb5 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_loc     0x0000453d      0x156 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
- .debug_loc     0x00004693      0x245 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_loc     0x000048d8      0x256 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_loc     0x00004b2e      0x2e5 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
- .debug_loc     0x00004e13       0x21 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_loc     0x00004e34      0x9e8 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_loc     0x00000084      0x761 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_loc     0x000007e5       0x62 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_loc     0x00000847      0x854 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_loc     0x0000109b      0xb43 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_loc     0x00001bde      0x1b6 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_loc     0x00001d94      0x232 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_loc     0x00001fc6      0x3e6 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_loc     0x000023ac      0x749 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_loc     0x00002af5      0x1f2 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_loc     0x00002ce7      0x4ad /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
+ .debug_loc     0x00003194      0xa20 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_loc     0x00003bb4       0x13 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_loc     0x00003bc7      0xbb5 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_loc     0x0000477c      0x1c3 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ .debug_loc     0x0000493f      0x245 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_loc     0x00004b84      0x256 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_loc     0x00004dda      0x2e5 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+ .debug_loc     0x000050bf       0x21 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_loc     0x000050e0      0x9e8 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_aranges  0x00000000      0x720
+.debug_aranges  0x00000000      0x728
  .debug_aranges
                 0x00000000       0x30 /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
  .debug_aranges
@@ -3150,134 +3194,134 @@ OUTPUT(/home/zhangdidi/esp/blufi/build/bootloader/bootloader.elf elf32-xtensa-le
  .debug_aranges
                 0x000000a0       0x30 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
  .debug_aranges
-                0x000000d0       0x60 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x000000d0       0x68 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  .debug_aranges
-                0x00000130       0x80 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000138       0x80 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .debug_aranges
-                0x000001b0       0x20 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x000001b8       0x20 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  .debug_aranges
-                0x000001d0       0x78 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x000001d8       0x78 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .debug_aranges
-                0x00000248       0x20 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+                0x00000250       0x20 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
  .debug_aranges
-                0x00000268       0x48 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x00000270       0x48 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .debug_aranges
-                0x000002b0       0x60 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x000002b8       0x60 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .debug_aranges
-                0x00000310       0x38 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x00000318       0x38 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .debug_aranges
-                0x00000348       0x38 /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
+                0x00000350       0x38 /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
  .debug_aranges
-                0x00000380       0xc0 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000388       0xc0 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .debug_aranges
-                0x00000440       0x38 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(cpu_util.o)
+                0x00000448       0x38 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(cpu_util.o)
  .debug_aranges
-                0x00000478       0x18 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(gpio_periph.o)
+                0x00000480       0x18 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(gpio_periph.o)
  .debug_aranges
-                0x00000490      0x138 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000498      0x138 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .debug_aranges
-                0x000005c8       0x28 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+                0x000005d0       0x28 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
  .debug_aranges
-                0x000005f0       0x30 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x000005f8       0x30 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
  .debug_aranges
-                0x00000620       0x50 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x00000628       0x50 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_aranges
-                0x00000670       0x70 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x00000678       0x70 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
  .debug_aranges
-                0x000006e0       0x20 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+                0x000006e8       0x20 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .debug_aranges
-                0x00000700       0x20 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+                0x00000708       0x20 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_ranges   0x00000000      0x760
+.debug_ranges   0x00000000      0x738
  .debug_ranges  0x00000000       0x20 /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
  .debug_ranges  0x00000020       0x60 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .debug_ranges  0x00000080       0x38 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_ranges  0x000000b8       0x80 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_ranges  0x00000138       0xd0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_ranges  0x00000208       0x58 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_ranges  0x00000260       0x68 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_ranges  0x000002c8       0x10 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_ranges  0x000002d8       0x68 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_ranges  0x00000340       0x50 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_ranges  0x00000390       0x58 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_ranges  0x000003e8       0x28 /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
- .debug_ranges  0x00000410       0xb0 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_ranges  0x000004c0       0x28 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_ranges  0x000004e8      0x140 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_ranges  0x00000628       0x18 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
- .debug_ranges  0x00000640       0x20 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_ranges  0x00000660       0x40 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_ranges  0x000006a0       0x60 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
- .debug_ranges  0x00000700       0x60 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_ranges  0x000000b8       0x70 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_ranges  0x00000128       0xa0 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_ranges  0x000001c8       0x58 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_ranges  0x00000220       0x68 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_ranges  0x00000288       0x10 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_ranges  0x00000298       0x80 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_ranges  0x00000318       0x50 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_ranges  0x00000368       0x58 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_ranges  0x000003c0       0x28 /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
+ .debug_ranges  0x000003e8       0xb0 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_ranges  0x00000498       0x28 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_ranges  0x000004c0      0x140 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_ranges  0x00000600       0x18 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ .debug_ranges  0x00000618       0x20 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_ranges  0x00000638       0x40 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_ranges  0x00000678       0x60 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+ .debug_ranges  0x000006d8       0x60 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_line     0x00000000     0x6a5e
- .debug_line    0x00000000      0x2b8 /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_line    0x000002b8      0x870 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_line    0x00000b28      0x3ac /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_line    0x00000ed4      0x7a8 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_line    0x0000167c      0x984 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_line    0x00002000      0x2cd /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_line    0x000022cd      0x50d /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_line    0x000027da      0x1e4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_line    0x000029be      0x5f7 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_line    0x00002fb5      0x55c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_line    0x00003511      0x49c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_line    0x000039ad      0x4e6 /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
- .debug_line    0x00003e93      0xad2 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_line    0x00004965      0x194 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_line    0x00004af9      0x103 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(gpio_periph.o)
- .debug_line    0x00004bfc      0xcdf /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_line    0x000058db      0x356 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
- .debug_line    0x00005c31      0x3d6 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_line    0x00006007      0x3ec /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_line    0x000063f3      0x454 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
- .debug_line    0x00006847       0x89 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_line    0x000068d0      0x18e /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+.debug_line     0x00000000     0x7128
+ .debug_line    0x00000000      0x30c /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_line    0x0000030c      0x9b9 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_line    0x00000cc5      0x3ac /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_line    0x00001071      0x93d /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_line    0x000019ae      0xae5 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_line    0x00002493      0x348 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_line    0x000027db      0x54c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_line    0x00002d27      0x1e4 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_line    0x00002f0b      0x672 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_line    0x0000357d      0x5fd /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_line    0x00003b7a      0x49c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_line    0x00004016      0x4e6 /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
+ .debug_line    0x000044fc      0xad2 /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_line    0x00004fce      0x194 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_line    0x00005162      0x103 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(gpio_periph.o)
+ .debug_line    0x00005265      0xcdf /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_line    0x00005f44      0x3b7 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ .debug_line    0x000062fb      0x3d6 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_line    0x000066d1      0x3ec /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_line    0x00006abd      0x454 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+ .debug_line    0x00006f11       0x89 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_line    0x00006f9a      0x18e /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_str      0x00000000     0x48e3
- .debug_str     0x00000000      0x2e0 /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
-                                0x344 (size before relaxing)
- .debug_str     0x000002e0      0xaa2 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
-                                0xc66 (size before relaxing)
- .debug_str     0x00000d82       0xab /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+.debug_str      0x00000000     0x4927
+ .debug_str     0x00000000      0x2fd /home/zhangdidi/esp/blufi/build/bootloader/main/libmain.a(bootloader_start.o)
+                                0x361 (size before relaxing)
+ .debug_str     0x000002fd      0xaa2 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                0xc83 (size before relaxing)
+ .debug_str     0x00000d9f       0xab /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
                                 0x249 (size before relaxing)
- .debug_str     0x00000e2d      0x2f5 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                0x770 (size before relaxing)
- .debug_str     0x00001122      0x30b /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                0x967 (size before relaxing)
- .debug_str     0x0000142d       0xaa /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
-                                0x3a2 (size before relaxing)
- .debug_str     0x000014d7     0x1882 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
-                               0x1b97 (size before relaxing)
- .debug_str     0x00002d59      0x23a /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_str     0x00000e4a      0x31c /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                0x7b4 (size before relaxing)
+ .debug_str     0x00001166      0x30b /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                0x984 (size before relaxing)
+ .debug_str     0x00001471       0xaa /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                                0x3bf (size before relaxing)
+ .debug_str     0x0000151b     0x1882 /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                               0x1bb4 (size before relaxing)
+ .debug_str     0x00002d9d      0x23a /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
                                 0x38e (size before relaxing)
- .debug_str     0x00002f93      0x2ad /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
-                                0x775 (size before relaxing)
- .debug_str     0x00003240      0x24a /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                                0x5b2 (size before relaxing)
- .debug_str     0x0000348a      0x10d /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_str     0x00002fd7      0x2ad /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                                0x792 (size before relaxing)
+ .debug_str     0x00003284      0x24a /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                0x5cf (size before relaxing)
+ .debug_str     0x000034ce      0x10d /home/zhangdidi/esp/blufi/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                 0x354 (size before relaxing)
- .debug_str     0x00003597      0x188 /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
+ .debug_str     0x000035db      0x188 /home/zhangdidi/esp/blufi/build/bootloader/log/liblog.a(log.o)
                                 0x344 (size before relaxing)
- .debug_str     0x0000371f      0x36a /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_str     0x00003763      0x36a /home/zhangdidi/esp/blufi/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                 0x750 (size before relaxing)
- .debug_str     0x00003a89       0x6f /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_str     0x00003acd       0x6f /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(cpu_util.o)
                                 0x17b (size before relaxing)
- .debug_str     0x00003af8       0x3f /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(gpio_periph.o)
+ .debug_str     0x00003b3c       0x3f /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(gpio_periph.o)
                                 0x145 (size before relaxing)
- .debug_str     0x00003b37      0x78f /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_str     0x00003b7b      0x78f /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                 0xa8e (size before relaxing)
- .debug_str     0x000042c6       0xf5 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
-                                0x677 (size before relaxing)
- .debug_str     0x000043bb       0xbf /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_str     0x0000430a       0xf5 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+                                0x694 (size before relaxing)
+ .debug_str     0x000043ff       0xbf /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_init.o)
                                 0x244 (size before relaxing)
- .debug_str     0x0000447a      0x143 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_str     0x000044be      0x143 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_time.o)
                                 0x3b2 (size before relaxing)
- .debug_str     0x000045bd      0x112 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+ .debug_str     0x00004601      0x112 /home/zhangdidi/esp/blufi/build/bootloader/soc/libsoc.a(rtc_wdt.o)
                                 0x4ef (size before relaxing)
- .debug_str     0x000046cf      0x138 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_str     0x00004713      0x138 /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
                                 0x1de (size before relaxing)
- .debug_str     0x00004807       0xdc /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_str     0x0000484b       0xdc /home/zhangdidi/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
                                 0x258 (size before relaxing)
 
 .comment        0x00000000       0x3a
