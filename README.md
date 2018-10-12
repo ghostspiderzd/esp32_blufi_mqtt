@@ -16,4 +16,16 @@ Modyfi the bug:
 #Bug:When the wifi account passworld is configured once,the network is reconfigured again and the MQTT is continuously reconnected.
 Repair:Disconnect the MQTT before rewiring the network
 
-######################################################
+#######################################################
+
+v1.2 2018/10/12
+#######################################################
+add save wificonfig,include wifi SSID and password.
+
+#######################################################
+
+
+
+
+
+
